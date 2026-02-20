@@ -1,4 +1,4 @@
-# Elite AI Software Development Team
+# AI Software Development Team
 
 A production-grade CrewAI multi-agent system for designing, developing, and reviewing software using structured delegation.
 
