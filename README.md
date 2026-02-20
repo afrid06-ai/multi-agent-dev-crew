@@ -20,7 +20,7 @@ Research → Architect → Code Generator → Reviewer → [Fixer → Reviewer]�
 ## Requirements
 
 - **Python 3.11+** (uses `.python-version` for pyenv)
-- **OPENAI_API_KEY**
+- **DEEPSEEK_API_KEY** (get key at https://platform.deepseek.com/)
 
 ## Setup
 
@@ -28,7 +28,7 @@ Research → Architect → Code Generator → Reviewer → [Fixer → Reviewer]�
 # Virtual env uses Python 3.11 (already configured)
 source .venv/bin/activate
 cp .env.example .env
-# Add your OPENAI_API_KEY to .env
+# Add your DEEPSEEK_API_KEY to .env
 ```
 
 ## Run
@@ -59,5 +59,4 @@ GENAI_PROJECT/
 
 ## Environment
 
-- `OPENAI_API_KEY` - Required for LLM (used by CrewAI default)
-- Optional: Set `OPENAI_MODEL_NAME` for a specific model
+- `DEEPSEEK_API_KEY` - Required for LLM (DeepSeek)
